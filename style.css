@@ -187,4 +187,20 @@ button:hover{
     }
 }
 
+@media(max-width: 650px){
+    form
+    {
+        width: 400px
+    }
+
+    .group input[type=text],
+.group input[type=email],
+.group input[type=number],
+textarea,
+button,
+select{
+    width: 280px;
+}
+}
+
 
